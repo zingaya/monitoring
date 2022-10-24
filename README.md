@@ -1,7 +1,13 @@
 # Proxy Server Monitoring
 <h2>Overview</h2>
 A requierement for a server that is used for SSL offloading and proxies thousands of request, is in need of capture critical and evaluation of metric data, to identify issues, set preventive actions, and capacity planning.
-This document is a very abstract about key metrics and their challenges/goals.
+
+This document is very abstract about key metrics and their challenges/goals.
+
+
+Metrics must retain a historical data for capacity planning, SLA calculation, and all metrics will trigger an alert when a threshold is reached.
+Several thresholds can be combined into a single alert to help in indentifying a root cause.
+Additionaly, an alert could trigger an action script that would fix an issue without human intervention.
 
 <h2>Key Metrics</h2>
 <h3>Hardware related</h3>
